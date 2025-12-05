@@ -1,6 +1,10 @@
 # RAG-for-Diagnostic-Reasoning-on-Clinical-Notes-DiReCT-
 Model: Mistral-7B-Instruct-v0.2 (4-bit quantized) | Embedding: all-MiniLM-L6-v2 | Vector DB: Chroma
 
+
+# Medium Blog: https://medium.com/@metheBilalAshiq/rag-for-diagnostic-reasoning-on-clinical-notes-direct-2ed40cf53748
+
+
 In the world of Natural Language Processing (NLP), the ability to process and understand human language is advancing rapidly. One of the key innovations that are paving the way for this evolution is the RAG (Retrieval-Augmented Generation) approach. The NLP — RAG Project aims to leverage this cutting-edge technology to improve information retrieval and text generation systems.
 
 - Project Overview 🧠
