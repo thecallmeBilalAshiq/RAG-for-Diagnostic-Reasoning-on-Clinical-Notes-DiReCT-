@@ -1,0 +1,131 @@
+<svg width="1600" height="700" viewBox="0 0 1600 700" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="100" y1="30" x2="1480" y2="670" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#06142D"/>
+      <stop offset="0.5" stop-color="#102A56"/>
+      <stop offset="1" stop-color="#08182E"/>
+    </linearGradient>
+    <radialGradient id="glow1" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(1260 145) rotate(137) scale(540 410)">
+      <stop stop-color="#18D8FF" stop-opacity="0.32"/>
+      <stop offset="1" stop-color="#18D8FF" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="glow2" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(310 660) rotate(-45) scale(500 310)">
+      <stop stop-color="#7C5CFF" stop-opacity="0.28"/>
+      <stop offset="1" stop-color="#7C5CFF" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="cyan" x1="0" y1="0" x2="1" y2="1">
+      <stop stop-color="#54F0FF"/><stop offset="1" stop-color="#17A9FF"/>
+    </linearGradient>
+    <linearGradient id="violet" x1="0" y1="0" x2="1" y2="1">
+      <stop stop-color="#B99AFF"/><stop offset="1" stop-color="#6A5CFF"/>
+    </linearGradient>
+    <linearGradient id="green" x1="0" y1="0" x2="1" y2="1">
+      <stop stop-color="#66FFD1"/><stop offset="1" stop-color="#1FCB8E"/>
+    </linearGradient>
+    <linearGradient id="card" x1="930" y1="160" x2="1390" y2="560" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#183A6C"/><stop offset="1" stop-color="#0A1D39"/>
+    </linearGradient>
+    <filter id="shadow" x="-40%" y="-40%" width="180%" height="180%">
+      <feDropShadow dx="0" dy="24" stdDeviation="22" flood-color="#020817" flood-opacity="0.65"/>
+    </filter>
+    <filter id="smallShadow" x="-40%" y="-40%" width="180%" height="180%">
+      <feDropShadow dx="0" dy="12" stdDeviation="12" flood-color="#020817" flood-opacity="0.55"/>
+    </filter>
+    <pattern id="grid" width="54" height="54" patternUnits="userSpaceOnUse">
+      <path d="M 54 0 L 0 0 0 54" fill="none" stroke="#8DC7FF" stroke-opacity="0.055" stroke-width="1"/>
+    </pattern>
+  </defs>
+
+  <rect width="1600" height="700" rx="42" fill="url(#bg)"/>
+  <rect width="1600" height="700" rx="42" fill="url(#grid)"/>
+  <rect width="1600" height="700" rx="42" fill="url(#glow1)"/>
+  <rect width="1600" height="700" rx="42" fill="url(#glow2)"/>
+
+  <g opacity="0.8">
+    <circle cx="95" cy="92" r="5" fill="#54F0FF"/>
+    <circle cx="124" cy="92" r="5" fill="#7C5CFF"/>
+    <circle cx="153" cy="92" r="5" fill="#66FFD1"/>
+  </g>
+
+  <g transform="translate(110 145)">
+    <rect x="0" y="0" width="210" height="42" rx="21" fill="#102F59" stroke="#54F0FF" stroke-opacity="0.35"/>
+    <circle cx="24" cy="21" r="6" fill="#66FFD1"/>
+    <text x="42" y="28" fill="#BCEBFF" font-size="18" font-family="Inter,Segoe UI,Arial" font-weight="700" letter-spacing="1.5">CLINICAL AI · RAG</text>
+
+    <text x="0" y="118" fill="#F5FAFF" font-size="74" font-family="Inter,Segoe UI,Arial" font-weight="800" letter-spacing="-2">DiReCT</text>
+    <text x="0" y="188" fill="url(#cyan)" font-size="52" font-family="Inter,Segoe UI,Arial" font-weight="800" letter-spacing="-1.2">Diagnostic Reasoning</text>
+    <text x="0" y="248" fill="#D7E8F9" font-size="32" font-family="Inter,Segoe UI,Arial" font-weight="600">with Retrieval-Augmented Generation</text>
+
+    <text x="0" y="310" fill="#9DB8D4" font-size="22" font-family="Inter,Segoe UI,Arial">Clinical-note retrieval using MiniLM + FAISS, grounded response</text>
+    <text x="0" y="344" fill="#9DB8D4" font-size="22" font-family="Inter,Segoe UI,Arial">generation with FLAN-T5, and an interactive Gradio interface.</text>
+
+    <g transform="translate(0 398)">
+      <rect width="220" height="54" rx="16" fill="#102F59" stroke="#55DFFF" stroke-opacity="0.35"/>
+      <text x="25" y="35" fill="#DDF8FF" font-size="19" font-family="Inter,Segoe UI,Arial" font-weight="700">SentenceTransformers</text>
+      <rect x="236" width="92" height="54" rx="16" fill="#102F59" stroke="#8F7CFF" stroke-opacity="0.45"/>
+      <text x="262" y="35" fill="#E8E3FF" font-size="19" font-family="Inter,Segoe UI,Arial" font-weight="700">FAISS</text>
+      <rect x="344" width="120" height="54" rx="16" fill="#102F59" stroke="#66FFD1" stroke-opacity="0.38"/>
+      <text x="366" y="35" fill="#DCFFF3" font-size="19" font-family="Inter,Segoe UI,Arial" font-weight="700">FLAN-T5</text>
+      <rect x="480" width="104" height="54" rx="16" fill="#102F59" stroke="#55DFFF" stroke-opacity="0.35"/>
+      <text x="503" y="35" fill="#DDF8FF" font-size="19" font-family="Inter,Segoe UI,Arial" font-weight="700">Gradio</text>
+    </g>
+  </g>
+
+  <g filter="url(#shadow)" transform="translate(960 118)">
+    <!-- back layer -->
+    <path d="M117 75L390 14L545 108L272 171L117 75Z" fill="#162D56" stroke="#6C86B7" stroke-opacity="0.35"/>
+    <path d="M272 171L545 108V175L272 238V171Z" fill="#0A1A34"/>
+    <path d="M117 75L272 171V238L117 141V75Z" fill="#102546"/>
+
+    <!-- middle layer -->
+    <path d="M55 190L330 126L494 225L218 291L55 190Z" fill="#173963" stroke="#55DFFF" stroke-opacity="0.5"/>
+    <path d="M218 291L494 225V302L218 369V291Z" fill="#0A203C"/>
+    <path d="M55 190L218 291V369L55 267V190Z" fill="#102B4E"/>
+
+    <!-- top clinical card -->
+    <path d="M0 312L276 247L451 353L173 420L0 312Z" fill="url(#card)" stroke="#66FFD1" stroke-opacity="0.65"/>
+    <path d="M173 420L451 353V445L173 513V420Z" fill="#08182F"/>
+    <path d="M0 312L173 420V513L0 404V312Z" fill="#0E2849"/>
+
+    <!-- card details -->
+    <g transform="translate(102 303) rotate(21)">
+      <rect x="0" y="0" width="260" height="8" rx="4" fill="#466A95" opacity="0.8"/>
+      <rect x="0" y="23" width="205" height="8" rx="4" fill="#466A95" opacity="0.65"/>
+      <rect x="0" y="46" width="228" height="8" rx="4" fill="#466A95" opacity="0.55"/>
+    </g>
+
+    <!-- medical cross -->
+    <g transform="translate(48 335) rotate(21)">
+      <rect x="21" y="0" width="20" height="62" rx="5" fill="url(#green)"/>
+      <rect x="0" y="21" width="62" height="20" rx="5" fill="url(#green)"/>
+    </g>
+
+    <!-- floating model nodes -->
+    <g filter="url(#smallShadow)">
+      <circle cx="448" cy="88" r="58" fill="#122E54" stroke="#54F0FF" stroke-width="2"/>
+      <circle cx="448" cy="88" r="43" fill="#0C203D"/>
+      <path d="M425 94C434 70 460 64 474 78C486 91 479 111 461 117C441 123 419 111 425 94Z" fill="url(#cyan)" opacity="0.9"/>
+      <circle cx="431" cy="80" r="5" fill="#F4FBFF"/><circle cx="463" cy="98" r="5" fill="#F4FBFF"/>
+      <path d="M435 83L458 95" stroke="#F4FBFF" stroke-width="3" stroke-linecap="round"/>
+    </g>
+
+    <g filter="url(#smallShadow)">
+      <circle cx="54" cy="165" r="46" fill="#122E54" stroke="#8F7CFF" stroke-width="2"/>
+      <path d="M34 160L54 145L74 160L54 175L34 160Z" fill="url(#violet)"/>
+      <path d="M34 169L54 184L74 169" stroke="#C9BDFF" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+    </g>
+
+    <g filter="url(#smallShadow)">
+      <circle cx="486" cy="332" r="50" fill="#122E54" stroke="#66FFD1" stroke-width="2"/>
+      <rect x="461" y="310" width="50" height="44" rx="9" fill="#0B213E" stroke="#66FFD1"/>
+      <path d="M471 323H501M471 333H497M471 343H489" stroke="#66FFD1" stroke-width="4" stroke-linecap="round"/>
+    </g>
+
+    <!-- connecting lines -->
+    <path d="M105 171C160 140 219 120 386 101" stroke="#8F7CFF" stroke-opacity="0.55" stroke-width="3" stroke-dasharray="8 10"/>
+    <path d="M430 138C444 185 465 235 477 280" stroke="#54F0FF" stroke-opacity="0.55" stroke-width="3" stroke-dasharray="8 10"/>
+    <path d="M433 339C370 340 322 336 262 325" stroke="#66FFD1" stroke-opacity="0.55" stroke-width="3" stroke-dasharray="8 10"/>
+  </g>
+
+  <text x="110" y="648" fill="#6887AA" font-size="17" font-family="Inter,Segoe UI,Arial" letter-spacing="1.2">ACADEMIC RESEARCH PROJECT · NATURAL LANGUAGE PROCESSING · CLINICAL INFORMATION RETRIEVAL</text>
+</svg>
