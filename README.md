@@ -1,7 +1,3 @@
-<p align="center">
-  <img src="assets/clinical-rag-3d-banner.png" alt="DiReCT Clinical RAG 3D Banner" width="100%" />
-</p>
-
 <h1 align="center">DiReCT — RAG for Diagnostic Reasoning on Clinical Notes</h1>
 
 <p align="center">
@@ -21,6 +17,11 @@
   <img src="https://img.shields.io/badge/UI-Gradio-F97316?style=flat-square&logo=gradio&logoColor=white" alt="Gradio" />
   <img src="https://img.shields.io/badge/Status-Research_Prototype-22C55E?style=flat-square" alt="Status" />
 </p>
+
+<p align="center">
+  <img src="assets/clinical-rag-3d-banner.png" alt="DiReCT Clinical RAG 3D Banner" width="100%" />
+</p>
+
 
 > [!IMPORTANT]
 > This repository is an **academic research prototype**, not a medical device. Its outputs must not be used for diagnosis, treatment, emergency decisions, or direct patient care without review by qualified healthcare professionals.
@@ -45,7 +46,6 @@
 - [Current Limitations](#current-limitations)
 - [Future Improvements](#future-improvements)
 - [Responsible Use](#responsible-use)
-- [Contributors](#contributors)
 - [Acknowledgements](#acknowledgements)
 
 ---
@@ -536,25 +536,6 @@ Do not use it to:
 - Make high-stakes clinical decisions.
 
 Any real-world extension should include expert review, privacy controls, audit logging, dataset governance, model monitoring, bias evaluation, security testing, and compliance with applicable healthcare regulations.
-
----
-
-## Contributors
-
-<table>
-  <tr>
-    <td align="center"><b>Muhammad Bilal Ashiq</b></td>
-    <td align="center"><b>Faiez Tariq</b></td>
-  </tr>
-  <tr>
-    <td align="center">BS Computer Science</td>
-    <td align="center">BS Computer Science</td>
-  </tr>
-  <tr>
-    <td align="center">22F-3309</td>
-    <td align="center">22F-3873</td>
-  </tr>
-</table>
 
 ---
 
